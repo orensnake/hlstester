@@ -1,0 +1,52 @@
+{
+  "lang": [
+    { "name": "en_US",
+      "dict" : [
+        { "id": 1,  "txt": "number of workers (number of emulated clients)" },
+        { "id": 2,  "txt": "reporting period (seconds)" },
+        { "id": 3,  "txt": "testing time (seconds)" },
+        { "id": 4,  "txt": "hls playlist URI" },
+        { "id": 5,  "txt": "Done." },
+        { "id": 6,  "txt": "Started %v workers\n" },
+        { "id": 7,  "txt": "Worker %v statistics:\n" },
+        { "id": 8,  "txt": "\tConnections:         %v\n" },
+        { "id": 9,  "txt": "\tErrors:              %v\n" },
+        { "id": 10, "txt": "\tBytes received:      %v\n" },
+        { "id": 11, "txt": "\tSpeed (calculated):  %v Mbit/s\n" },
+        { "id": 12, "txt": "Worker %v current playlist:\n" },
+        { "id": 13, "txt": "\tChunk: %v\t\tloaded: %v\n" },
+        { "id": 14, "txt": "yes" },
+        { "id": 15, "txt": "no, loading in progress" },
+        { "id": 16, "txt": "no" },
+        { "id": 17, "txt": "Wrong StatusCode in http answer" },
+        { "id": 18, "txt": "Worker %v: Trying to get %v\n" },
+        { "id": 19, "txt": "Chunk: %v: received %v bytes at %v, speed = %vMbit/s\n" },
+        { "id": 20, "txt": "Worker %v: Reload playlist.\n" }
+      ]
+    },
+    { "name": "ru_RU",
+      "dict" : [
+        { "id": 1,  "txt": "количество одновременных потоков (эмуляция числа клиентов)" },
+        { "id": 2,  "txt": "период для выдачи статистики по потокам (сек)" },
+        { "id": 3,  "txt": "длительность тестирования (сек)" },
+        { "id": 4,  "txt": "ссылка на hls playlist" },
+        { "id": 5,  "txt": "Работа завершена." },
+        { "id": 6,  "txt": "Клиентов запущено: %v\n" },
+        { "id": 7,  "txt": "Статистика клиента %v:\n" },
+        { "id": 8,  "txt": "\tЗапросов:             %v\n" },
+        { "id": 9,  "txt": "\tОшибок:               %v\n" },
+        { "id": 10, "txt": "\tБайт получено:        %v\n" },
+        { "id": 11, "txt": "\tСкорость (расчетная): %v Мбит/с\n" },
+        { "id": 12, "txt": "Текущий плейлист клиента %v:\n" },
+        { "id": 13, "txt": "\tСегмент: %v\t\tзагружен: %v\n" },
+        { "id": 14, "txt": "да" },
+        { "id": 15, "txt": "нет, загружается" },
+        { "id": 16, "txt": "нет" },
+        { "id": 17, "txt": "Не верный HTTP StatusCode в ответе." },
+        { "id": 18, "txt": "Клиент %v: Пытаюсь получить %v\n" },
+        { "id": 19, "txt": "Клиент %v: Сегмент %v: получено %v байт за %v, скорость = %vМбит/с\n" },
+        { "id": 20, "txt": "Клиент %v: Обновляю плейлист.\n" }
+      ]
+    }
+  ]
+}
